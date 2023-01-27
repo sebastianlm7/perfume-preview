@@ -1,0 +1,124 @@
+
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  
+  
+  
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: 93%;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  
+  background-color: hsl(158, 36%, 37%);
+  cursor: pointer;
+  margin-bottom: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  
+
+  
+  
+    
+}
+button:hover {
+  background-color: hsl(159, 49%, 19%)
+}
+
+.img-box {
+    
+  
+  width: 50%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  
+}
+
+.text-column {
+  
+  
+  flex-direction: column;
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 20px;
+  display: flex;
+  margin: auto;
+
+}
+
+.perfume-box {
+  background-color: hsl(0, 0%, 100%); 
+  width: 600px; 
+  display: flex;
+  border-radius: 15px;
+  min-height: 400px;
+  height: auto;
+  
+  
+  
+}
+
+.fraunces {
+  font-family: 'Fraunces';
+  font-size: 35px;
+  
+}
+
+.fraunces-verde {
+  font-family: 'Fraunces';
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.monserrat {
+  font-family: 'Montserrat';
+  color: hsl(228, 12%, 48%);
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 25px;
+  
+  
+}
+
+.monserrat-perfume {
+  font-family: 'Montserrat';
+  color: hsl(228, 12%, 48%);
+  padding-top: 20px;
+  font-size: 13px;
+  
+}
+
+.monserrat-tachado {
+  text-decoration: line-through;
+  font-family: 'Montserrat';
+  color: hsl(228, 12%, 48%);
+  font-size: 15px;
+  
+}
+
+.precios {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.chart {
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
